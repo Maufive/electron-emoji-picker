@@ -70,6 +70,7 @@ export const Menu: React.FC<MenuProps> = ({
     <form
       className="flex items-center px-4 my-10 rounded-xl shadow-lg bg-gray-700"
       style={{ minWidth: '50%' }}
+      onSubmit={(e) => e.preventDefault()}
     >
       <label htmlFor="search-input" className="text-gray-400">
         <SearchIcon />

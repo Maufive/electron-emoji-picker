@@ -46,6 +46,7 @@ function App() {
   }, [currentCategory])
 
   const handleClickCategory = (category: string | null) => {
+    setSearchQuery('')
     setCurrentCategory(category)
   }
 
