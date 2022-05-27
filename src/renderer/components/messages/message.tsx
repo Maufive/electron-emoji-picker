@@ -9,9 +9,9 @@ interface Props extends MessageProps {
 const Message: FunctionComponent<Props> = ({ message, onClickClose }) => (
   <motion.div
     layout="position"
-    initial={{ opacity: 0, y: 50 }}
+    initial={{ opacity: 0, y: -25 }}
     animate={{ opacity: 1, y: 0 }}
-    exit={{ opacity: 0, y: 50 }}
+    exit={{ opacity: 0, y: -25 }}
     className="flex w-full max-w-xs items-center rounded-lg bg-green-500 py-4 px-6 text-gray-200 shadow-lg"
     role="alert"
   >

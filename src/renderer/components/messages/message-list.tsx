@@ -15,7 +15,7 @@ export const MessageList: FunctionComponent<MessageListProps> = ({
         left: '50%',
         transform: 'translate(-50%, 0)'
       }}
-      className="absolute bottom-10 z-10 flex gap-4 flex-col place-items-center justify-center"
+      className="absolute top-10 z-10 flex gap-4 flex-col place-items-center justify-center"
     >
       <AnimatePresence>
         {messages.map((message, index) => (
